@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CardHunt - Find Your Perfect Credit Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      font-size: 24px;
+      color: #222;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #555;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e7f1ff;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .card-box img {
+      width: 100%;
+      max-height: 140px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    .card-box h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .card-box p {
+      font-size: 14px;
+      color: #666;
+    }
+    .card-box a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #0066cc;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .features, .faq {
+      padding: 40px;
+      background: #ffffff;
+    }
+    .features h2, .faq h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .features ul {
+      max-width: 800px;
+      margin: auto;
+      list-style: none;
+      padding-left: 0;
+    }
+    .features li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #444;
+    }
+    .faq-item {
+      max-width: 800px;
+      margin: 10px auto;
+    }
+    .faq-item h4 {
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #333;
+    }
+    .faq-item p {
+      font-size: 14px;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CardHunt</h1>
+    <nav>
+      <a href="#cards">All Cards</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Find Your Perfect Credit Card</h2>
+    <p>Explore and compare credit cards from India’s top banks. Whether you're shopping, traveling, or dining, there's a card for your lifestyle. Apply easily through CardHunt and enjoy exclusive benefits.</p>
+  </section>
+
+  <section id="cards" class="cards">
+    <div class="card-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/HDFC_Bank_Logo.svg" alt="HDFC Card">
+      <h3>HDFC Regalia Credit Card</h3>
+      <p>Premium card with travel benefits, complimentary lounge access, and reward points.</p>
+      <a href="#">Apply Now</a>
+    </div>
+    <div class="card-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/ICICI_Bank_Logo.svg" alt="ICICI Card">
+      <h3>ICICI Coral Credit Card</h3>
+      <p>Enjoy free movie tickets, discounts on dining, and cashback rewards every month.</p>
+      <a href="#">Apply Now</a>
+    </div>
+    <div class="card-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/SBI_logo.svg" alt="SBI Card">
+      <h3>SBI SimplyCLICK Card</h3>
+      <p>Earn rewards on all online spending with popular merchants like Amazon and BookMyShow.</p>
+      <a href="#">Apply Now</a>
+    </div>
+    <div class="card-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Axis_Bank_Logo.svg" alt="Axis Card">
+      <h3>Axis Bank Flipkart Card</h3>
+      <p>Get 5% cashback on Flipkart, Myntra, and more. Ideal for online shoppers.</p>
+      <a href="#">Apply Now</a>
+    </div>
+    <div class="card-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Kotak_Mahindra_Bank_Logo.svg" alt="Kotak Card">
+      <h3>Kotak Royale Signature Card</h3>
+      <p>Reward-rich card with travel privileges and fuel surcharge waivers.</p>
+      <a href="#">Apply Now</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Why Use CardHunt?</h2>
+    <ul>
+      <li>✅ Access credit cards from top Indian banks in one place</li>
+      <li>✅ Compare features, benefits, and eligibility easily</li>
+      <li>✅ Completely free to use — no hidden charges</li>
+      <li>✅ Safe application redirection to official bank websites</li>
+      <li>✅ Curated picks based on lifestyle and needs</li>
+    </ul>
+  </section>
+
+  <section id="about" style="padding: 40px; text-align: center;">
+    <h2>About CardHunt</h2>
+    <p style="max-width: 700px; margin: 20px auto; color: #555;">
+      CardHunt is designed to help Indians find the right credit card for their lifestyle. We believe credit should be smart, rewarding, and transparent. Our platform lets you compare top credit cards by category — travel, shopping, cashback, and more — and helps you apply with confidence. We're constantly updating with new cards, offers, and tips to help you make informed financial decisions.
+    </p>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h4>Is CardHunt a bank?</h4>
+      <p>No, we are not a bank. We provide a platform to discover and apply for credit cards from different Indian banks.</p>
+    </div>
+    <div class="faq-item">
+      <h4>How do I apply for a card?</h4>
+      <p>Click the "Apply Now" button on any card and you’ll be redirected to the official bank’s application page.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do you charge for this service?</h4>
+      <p>No, CardHunt is completely free to use.</p>
+    </div>
+    <div class="faq-item">
+      <h4>How often is card information updated?</h4>
+      <p>We aim to keep our listings accurate and updated monthly or whenever banks release new offers.</p>
+    </div>
+  </section>
+
+  <section id="contact" style="padding: 20px; text-align: center;">
+    <p>For queries, suggestions, or partnerships, email us at <a href="mailto:contact@cardhunt.in">contact@cardhunt.in</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 CardHunt. All rights reserved.
+  </footer>
+</body>
+</html>
